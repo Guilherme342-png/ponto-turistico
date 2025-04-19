@@ -1,0 +1,74 @@
+:root{
+
+    /* COLOR */
+
+    --bg-df:#F5F4F0;
+    --bd-primary:#D9D9D9;
+
+    /* TXT */
+
+    --txt-primary:#1B1B1B;
+    --txt-secondary:#333333;
+    --txt-tertiary:#696969;
+    --txt-head-line:#e1624f;
+
+    /* ACCENT */
+
+    --accent-blue:#0C51A7;
+    --accent-orange:#E95E10;
+    --accent-pink:#E5245E;
+    --accent-purple:#591B98;
+
+}
+
+body{
+    background-color: var(--bd-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+
+    background-color: var(--bg-df);
+
+}
+
+.main ul > li {
+    margin-left: -12px;
+}
+
+
+.busan img{
+    width: 1120px;
+    height: 660px;
+    border-radius: 28px;
+}
+
+hr{
+    margin-top:44px;
+    margin-bottom:64px;
+}
+
+.destinos-main {
+    margin-top: 64px;
+}
+
+.destinos-main img{
+    margin-bottom: 20px;
+}
+
+.first img{
+    object-fit: cover;
+    border-radius: 28px;
+    width: 1120px;
+    height: 350px;
+}
+
+.cover-img{
+    object-position:bottom;
+}
+
+.destinos, .busan{
+    margin: 80px;
+}
